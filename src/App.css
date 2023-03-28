@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  background-color: #94AF9F;
+  padding: 15px;
+  font-size: 2em;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav a:hover {
+  color: #020b0f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav a {
+  color: rgb(252, 245, 245);
+  text-decoration: none;
+  transition: color 1s ease 1ms;
+}
+
+   
+.name {
+  font-family: 'Montagu Slab', serif;
+  font-size: 40px;
+  border-style: solid;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+
+#headshot {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* .home {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-047-kq92wx9y.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b4691601fc97c7e239f0462f567837b6");
+  background-size: auto;
+  width: auto;
+  margin: 0px;
+} */
+
+/* #home-content{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #9ed7f16a;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+#about-img{
+  border-radius: 20%;
+  padding: 40px;
 }

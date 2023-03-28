@@ -9,7 +9,7 @@ function About() {
       <ResumeButton />
       <div className = "side-story">
       <Background />
-      <img src="https://i.postimg.cc/0NHN0br7/IMG-1239.jpg" width = "300px" className="about-img"/>
+      <img src="https://i.postimg.cc/0NHN0br7/IMG-1239.jpg" width = "300px" className="about-img" alt="headshot-img"/>
       <Programmer />
       </div>
     </div>

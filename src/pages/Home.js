@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div>
+    <div id="home">
     <div id="home-content">
       <h1>Welcome!</h1>
       <h2>My name is Mayleen Zhagnay </h2>

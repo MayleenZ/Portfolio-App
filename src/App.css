@@ -1,16 +1,16 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .nav {
   display: flex;
   justify-content: space-around;
   background-color: #94AF9F;
-  padding: 15px;
+  padding: 0px;
   font-size: 2em;
   width: 100%;
   align-items: center;
-  height: 80px;
+  height: 100px;
 }
 
 .nav a:hover {
@@ -54,7 +54,42 @@
   justify-content: space-around;
 } */
 
-#about-img{
-  border-radius: 20%;
-  padding: 40px;
+#home {
+  text-align: center;
+  margin: 45px;
 }
+
+.about-img{
+  border-radius: 50%;
+}
+
+#skill-badges{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  transition: transform .2s;
+}
+
+#skill-badges :hover{
+  transform: scale(1.5)
+}
+
+#skills-title{
+  margin: 25px;
+  text-align: center;
+}
+
+.side-story{
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 226, 255);
+  gap: 80px;
+}
+
+.btn-primary{
+  margin: 25px;
+}
+

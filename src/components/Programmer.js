@@ -1,3 +1,5 @@
+import ResumeButton from "./Button";
+
 function Programmer() {
   return (
     <div>
@@ -9,10 +11,11 @@ function Programmer() {
           start without having to consciously think through each step. In
           contrast, a computer requires specific instructions such as going to
           the kitchen, taking three steps to the fridge, opening the fridge, and
-          so on until a sandwhich is made. Understanding this process is a key
+          so on until a sandwich is made. Understanding this process is a key
           aspect of thinking like a programmer. Shortly after this analogy, I
           wanted to learn more.
         </p>
+        <ResumeButton />
       </div>
 
   );

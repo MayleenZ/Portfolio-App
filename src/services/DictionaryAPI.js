@@ -1,14 +1,11 @@
-export const DictionaryAPI = async () => {
-    try{
-        const response = await fetch (
-            ''
-        )
-        const data = await response.json()
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-    
-}
+import axios from "axios"
 
-export default DictionaryAPI
+export const getWord = async (searchTerm) => {
+    try {
+        const response = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${searchTerm}`)
+        console.log(response);
+        return response;
+    } catch (error) {
+        console.error(error);
+    }
+}

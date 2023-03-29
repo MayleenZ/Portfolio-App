@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <div>
-      <h1 id="skills-title">Skill Set</h1>
+      <p id="skills-title"></p>
       <div id="skill-badges">
         <img
           src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"

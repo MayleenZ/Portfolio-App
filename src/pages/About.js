@@ -1,15 +1,12 @@
 import Background from "../components/Background";
-import ResumeButton from "../components/Button";
-import Skills from "../components/Skills";
 import Programmer from "../components/Programmer";
 function About() {
   return (
     <div>
-      <Skills/>
-      <ResumeButton />
+      {/* <Skills/> */}
       <div className = "side-story">
       <Background />
-      <img src="https://i.postimg.cc/0NHN0br7/IMG-1239.jpg" width = "300px" className="about-img" alt="headshot-img"/>
+      <img src="https://as1.ftcdn.net/v2/jpg/05/16/19/52/1000_F_516195286_9VkHlOEuzUaWQjalbSKQEmntmErpMMkI.jpg" width = "300px" height = "300px" className="about-img" alt="headshot-img"/>
       <Programmer />
       </div>
     </div>

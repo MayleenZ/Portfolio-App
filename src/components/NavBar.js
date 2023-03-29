@@ -7,13 +7,13 @@ function NavBar() {
       <Link to="/" span className = 'name'>Mayleen</Link>
       </div>
       <div>
-      <Link to="/about">About</Link>
+      <Link to="/about">ABOUT</Link>
       </div>
       <div>
-      <Link to="/projects">Projects</Link>
+      <Link to="/projects">PROJECTS</Link>
       </div>
       <div>
-      <Link to="/contact">Contact</Link>
+      <Link to="/contact">CONTACT</Link>
       </div>
     </navbar>
   );

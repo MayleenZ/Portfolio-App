@@ -11,6 +11,7 @@
   width: 100%;
   align-items: center;
   height: 100px;
+  box-shadow: 0 0 25px 0 black;
 }
 
 .nav a:hover {
@@ -89,7 +90,10 @@
   gap: 80px;
 }
 
-.btn-primary{
+.btn-resume{
+  display: flex;
   margin: 25px;
+  justify-content: center;
+
 }
 

@@ -218,3 +218,14 @@
   padding: 15px;
   margin: 10px;
 }
+
+.input-word {
+  border-radius: 5px;
+
+}
+
+.btn-word {
+  border-radius: 5px;
+  margin: 5px;
+  font-family:serif;
+}

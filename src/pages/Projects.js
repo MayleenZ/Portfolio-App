@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 function Projects() {
   const [word, setWord] = useState(null);
   const [formData, setFormData] = useState({ searchTerm: "" });
-  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -14,13 +13,7 @@ function Projects() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = await getWord(formData.searchTerm);
-    if (data === undefined) {
-      setErrorMessage("Please enter a valid word");
-      setWord(null);
-    } else {
-      setWord(data);
-      setErrorMessage("");
-    }
+    setWord(data);
   };
 
   useEffect(() => {
@@ -38,8 +31,8 @@ function Projects() {
       <div className="word-content">
         <h1>Word Finder</h1>
         <p>
-          I love looking at word definitions so I added this cool feature so you
-          can too!
+          I love looking up new words I've just learned, so I added this cool
+          feature so you can too!
         </p>
         <input
           type="text"
@@ -47,18 +40,23 @@ function Projects() {
           name="searchTerm"
           onChange={handleChange}
           placeholder="Type Word Here"
+          className = "input-word"
         ></input>
-        <button onClick={handleSubmit} type="submit">
+        <button onClick={handleSubmit} type="submit" className = "btn-word">
+            
           Submit
         </button>
         <div>
-          {errorMessage && <p>{errorMessage}</p>}
-          {word && (
+          {word ? (
             <p className="word-def">
               {word.data[0].word.toUpperCase()}:{" "}
-              {word.data[0].meanings[0].definitions[0].definition}
+              {word.data[0].meanings[0].definitions[0].definition}/{" "}
+              {word.data[0].phonetic}
             </p>
+          ) : (
+            <p className="word-def">Please Enter a Valid Word</p>
           )}
+          {/* We are evaluating the conidtion word, if truthy it will complete the following expressions, if falsy it will return coniditon after (:)| condition ? expressionIfTrue : expressionIfFalse*/}
         </div>
       </div>
     </div>

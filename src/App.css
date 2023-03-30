@@ -229,3 +229,77 @@
   margin: 5px;
   font-family:serif;
 }
+
+
+
+.label {
+  margin: 10px;
+  font-size: 20px;
+}
+.input{
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  border: 1px solid rgb(220, 220, 220);
+  color: rgb(10, 9, 9);
+  max-width: max-content;
+} 
+
+.input:focus{
+  background: #c1dfe4b8;
+}
+
+.message-area {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.message-area:focus{
+  background: #c1dfe4b8;
+}
+
+#btn-send {
+  display: flex;
+  justify-content: center;
+  margin: -50px;
+}
+#btn-s {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(9, 6, 6);
+  border: none;
+}
+
+#btn-s:hover{
+  background-color: #c1efdf;
+}
+
+#form-div {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  margin-top: -10px;
+  justify-content: center;
+
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: -10px;
+}
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}

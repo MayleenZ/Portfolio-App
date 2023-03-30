@@ -25,15 +25,22 @@ function Contact() {
       );
   };
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <>
+      <h1 className="contact-title">Email Me</h1>
+      <p className="contact-content">I am currently open to junior software engineering positions. Or, if you want to discuss anything else.</p>
+
+      <form id = "form-div" ref={form} onSubmit={sendEmail}>
+        <label className="label">Your Name</label>
+        <input className="input" type="text" name="user_name" />
+        <label className="label">Your Email</label>
+        <input className="input" type="email" name="user_email" />
+        <label className="label">Message</label>
+        <textarea className="message-area" name="message" />
+      </form>
+      <div id="btn-send">
+        <input id= "btn-s" type="submit" value="Send" />
+      </div>
+    </>
   );
 }
 

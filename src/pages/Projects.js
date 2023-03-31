@@ -1,7 +1,7 @@
 import Skills from "../components/Skills";
 import { getWord } from "../services/DictionaryAPI";
 import { useState, useEffect } from "react";
-
+import CarouselPage from "../components/Carousel";
 function Projects() {
   const [word, setWord] = useState(null);
   const [formData, setFormData] = useState({ searchTerm: "" });
@@ -59,7 +59,7 @@ function Projects() {
           {/* We are evaluating the conidtion word, if truthy it will complete the following expressions, if falsy it will return coniditon after (:)| condition ? expressionIfTrue : expressionIfFalse*/}
         </div>
       </div>
-      <a href = "https://buzzwordgame.netlify.app/ " target = "_blank" rel="noreferrer">BuzzWord</a>
+      <CarouselPage />
     </div>
   );
 }

@@ -137,6 +137,11 @@
 #home {
   text-align: center;
   margin: 45px;
+
+}
+
+* {
+  font-family: 'Bitter', serif;
 }
 
 .about-img{
@@ -309,4 +314,8 @@
   display: flex;
   justify-content: center;
   margin: 25px;
+}
+
+.legend {
+  
 }

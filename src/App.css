@@ -221,13 +221,20 @@
 
 .input-word {
   border-radius: 5px;
-
+  border: 1px solid rgb(220, 220, 220);
+}
+.input-word:focus{
+  background: #c1dfe4b8;;
 }
 
 .btn-word {
   border-radius: 5px;
   margin: 5px;
-  font-family:serif;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.btn-word:hover{
+  background-color: #c1efdf;
 }
 
 

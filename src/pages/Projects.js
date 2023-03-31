@@ -59,6 +59,7 @@ function Projects() {
           {/* We are evaluating the conidtion word, if truthy it will complete the following expressions, if falsy it will return coniditon after (:)| condition ? expressionIfTrue : expressionIfFalse*/}
         </div>
       </div>
+      <a href = "https://buzzwordgame.netlify.app/ " target = "_blank" rel="noreferrer">BuzzWord</a>
     </div>
   );
 }

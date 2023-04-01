@@ -160,16 +160,13 @@
   padding: 10px;
   justify-content: space-around;
   transition: transform .2s;
+margin: 25px;
 }
 
 #skill-badges :hover{
   transform: scale(1.5)
 }
 
-#skills-title{
-  margin: 25px;
-  text-align: center;
-}
 
 .side-story-div{
   background-color: rgba(190, 226, 255, 0.374);
@@ -358,4 +355,9 @@
   color: white;
   border-radius: 6px;
   font-size: 17px;
+}
+
+.italic-heading{
+  font-style: italic;
+  font-size: 16px;
 }

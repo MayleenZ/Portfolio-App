@@ -66,7 +66,7 @@ function Projects() {
         </div>
       </div>
       <h1 id = "project-title">Projects</h1>
-      <p id = "project-par">Click on links to learn more</p>
+      <p id = "project-par">Click on the project titles to learn more</p>
       <CarouselPage />
     </div>
   );

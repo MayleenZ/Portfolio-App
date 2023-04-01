@@ -7,8 +7,12 @@ const CarouselPage = () => {
     <div className="Carousel">
       <Carousel>
         <div>
-          <a href="https://nikesneakersite.netlify.app/" className="link-site"             target="_blank"
-            rel="noopener">
+          <a
+            href="https://nikesneakersite.netlify.app/"
+            className="link-site"
+            target="_blank"
+            rel="noreferrer" 
+          >
             Nike Sneaker Site
           </a>
           <img
@@ -20,8 +24,6 @@ const CarouselPage = () => {
         <div>
           <img
             src="https://i.postimg.cc/9QNqfTy4/Screen-Shot-2023-03-31-at-1-27-21-PM.png"
-            target="_blank"
-            rel="noopener"
             alt="homepage"
           />
           <p className="legend">Nike Checkout Page</p>
@@ -31,7 +33,7 @@ const CarouselPage = () => {
             href="https://starwarstarshipcards.netlify.app"
             className="link-site"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer" 
           >
             Star War Spaceships
           </a>
@@ -69,7 +71,7 @@ const CarouselPage = () => {
             href="https://catfactsadopt.netlify.app"
             className="link-site"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer" 
           >
             Cat Facts & NYC Adoption
           </a>

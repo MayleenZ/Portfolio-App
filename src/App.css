@@ -222,11 +222,13 @@
 .word-content{
   padding: 15px;
   margin: 10px;
+  font-weight: bold;
 }
 
 .input-word {
   border-radius: 5px;
   border: 1px solid rgb(220, 220, 220);
+  margin-left: 20px;
 }
 .input-word:focus{
   background: #c1dfe4b8;;
@@ -330,4 +332,12 @@
   font-size: 35px;
   text-decoration: none;
   color: black;
+}
+
+#project-title{
+  margin-left:30px;
+  padding: 15px;
+  background-color: #94AF9F;
+  color: white;
+  border-radius: 6px;
 }

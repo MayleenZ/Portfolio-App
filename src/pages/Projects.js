@@ -59,7 +59,7 @@ function Projects() {
           {/* We are evaluating the conidtion word, if truthy it will complete the following expressions, if falsy it will return coniditon after (:)| condition ? expressionIfTrue : expressionIfFalse*/}
         </div>
       </div>
-      <h1>Projects</h1>
+      <h1 id = "project-title">Projects</h1>
       <CarouselPage />
     </div>
   );

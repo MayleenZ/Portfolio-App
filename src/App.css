@@ -122,8 +122,8 @@
 #headshot {
   border-radius: 50%;
   padding: 20px;
-  width: 400px;
-  height: 300px;
+  width: 320px;
+  height: 280px;
 }
 
  #home {
@@ -133,14 +133,15 @@
   margin: 0px;
   padding: 20px;
   border-radius: 15px;
-}  
-
-
-#home {
   text-align: center;
   margin: 45px;
-
+}  
+#home-content{
+  background-color: #ffffffcc;
+  border-radius: 10px;
+  padding: 10px;
 }
+
 
 * {
   font-family: 'Bitter', serif;
@@ -177,25 +178,6 @@
   gap: 80px;
 }
 
-/* .btn-resume{
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  border-radius: 6px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  outline: none;
-  /* border: none; */
-  /* cursor: pointer;
-  padding: 8px 20px;
-  color: rgb(173, 17, 17);
-} */
-
-/* .btn-resume :hover {
-  transition: 0.3s ease-out;
-  color:rgba(6, 22, 35, 0.374);
-  border-radius: 6px;
-  background-color: rgba(10, 161, 161, 0.267);
-}  */
 
 .btn-resume {
   padding: 8px 20px;
@@ -281,17 +263,17 @@
   background: #c1dfe4b8;
 }
 
-#btn-send {
-  display: flex;
-  justify-content: center;
-  margin: -50px;
-}
+
 #btn-s {
   border-radius: 10px;
   padding: 10px;
   font-size: 20px;
   color: rgb(9, 6, 6);
   border: none;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
 }
 
 #btn-s:hover{

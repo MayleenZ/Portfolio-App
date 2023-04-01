@@ -6,6 +6,7 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
 
     emailjs
       .sendForm(
@@ -18,6 +19,7 @@ function Contact() {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          e.target.reset()
         },
         (error) => {
           console.error(error.text);
@@ -36,10 +38,8 @@ function Contact() {
         <input className="input" type="email" name="user_email" />
         <label className="label">Message</label>
         <textarea className="message-area" name="message" />
-      </form>
-      <div id="btn-send">
         <input id= "btn-s" type="submit" value="Send" />
-      </div>
+      </form>
     </>
   );
 }

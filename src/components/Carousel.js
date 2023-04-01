@@ -26,7 +26,7 @@ const CarouselPage = () => {
             src="https://i.postimg.cc/FFB2CQCc/Screen-Shot-2023-04-01-at-11-22-25-AM.png"
             alt="homepage"
           />
-          <p className="legend">Nike Checkout Page</p>
+          <p className="legend">Nike Shoes Page</p>
         </div>
         <div>
           <img

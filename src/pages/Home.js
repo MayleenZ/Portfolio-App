@@ -10,7 +10,7 @@ function Home() {
       </p>
       </div>
       <div>
-      <img id = "headshot" src = "https://i.postimg.cc/jSTVr4H4/IMG-1238.jpg" alt = "headshot" />
+      <img id = "headshot" src = "https://i.postimg.cc/90bCfHcY/Screen-Shot-2023-04-01-at-3-22-09-PM.png" alt = "headshot" />
       </div>
     </div>
   );

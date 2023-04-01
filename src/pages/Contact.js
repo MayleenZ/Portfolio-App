@@ -29,8 +29,7 @@ function Contact() {
   return (
     <>
       <h1 className="contact-title">Email Me</h1>
-      <p className="contact-content">I am currently open to junior software engineering positions.</p>
-
+      <p className="contact-content">I am currently open to junior software engineering positions. Aditionally, discussing tech stacks and any feedback or advice.</p>
       <form id = "form-div" ref={form} onSubmit={sendEmail}>
         <label className="label">Your Name</label>
         <input className="input" type="text" name="user_name" />

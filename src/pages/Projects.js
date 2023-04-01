@@ -8,12 +8,18 @@ function Projects() {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    //const newStateObject = { ...existingStateObject, newProperty: newValue };
+    console.log(e.target.name);
+    console.log(e.target.value);
+    //the form constantly updates when using e and creates a key pair using searchTerm and the value of what the user writes (e.target.value)
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = await getWord(formData.searchTerm);
     setWord(data);
+    setFormData({...formData, searchTerm: ""})
+    //spreading existing state and having it update the searchTerm value to empty string. SearchTerm is a key pair value
   };
 
   useEffect(() => {
@@ -60,6 +66,7 @@ function Projects() {
         </div>
       </div>
       <h1 id = "project-title">Projects</h1>
+      <p id = "project-par">Click on links to learn more</p>
       <CarouselPage />
     </div>
   );

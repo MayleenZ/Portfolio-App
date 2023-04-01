@@ -11,7 +11,7 @@ const CarouselPage = () => {
             href="https://nikesneakersite.netlify.app/"
             className="link-site"
             target="_blank"
-            rel="noreferrer" 
+            rel="noreferrer"
           >
             Nike Sneaker Site
           </a>
@@ -40,7 +40,7 @@ const CarouselPage = () => {
             href="https://starwarstarshipcards.netlify.app"
             className="link-site"
             target="_blank"
-            rel="noreferrer" 
+            rel="noreferrer"
           >
             Star War Spaceships
           </a>
@@ -78,7 +78,7 @@ const CarouselPage = () => {
             href="https://catfactsadopt.netlify.app"
             className="link-site"
             target="_blank"
-            rel="noreferrer" 
+            rel="noreferrer"
           >
             Cat Facts & NYC Adoption
           </a>

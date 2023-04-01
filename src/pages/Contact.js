@@ -20,14 +20,14 @@ function Contact() {
           console.log("message sent");
         },
         (error) => {
-          console.log(error.text);
+          console.error(error.text);
         }
       );
   };
   return (
     <>
       <h1 className="contact-title">Email Me</h1>
-      <p className="contact-content">I am currently open to junior software engineering positions. Or, if you want to discuss anything else.</p>
+      <p className="contact-content">I am currently open to junior software engineering positions.</p>
 
       <form id = "form-div" ref={form} onSubmit={sendEmail}>
         <label className="label">Your Name</label>

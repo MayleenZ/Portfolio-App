@@ -16,14 +16,21 @@ const CarouselPage = () => {
             Nike Sneaker Site
           </a>
           <img
-            src="https://i.postimg.cc/PrQWdP6Z/Screen-Shot-2023-03-31-at-1-26-46-PM.png"
+            src="https://i.postimg.cc/3xY5mFbb/Screen-Shot-2023-04-01-at-11-21-43-AM.png"
             alt="sneaker website"
           />
           <p className="legend">Nike Home Page</p>
         </div>
         <div>
           <img
-            src="https://i.postimg.cc/9QNqfTy4/Screen-Shot-2023-03-31-at-1-27-21-PM.png"
+            src="https://i.postimg.cc/FFB2CQCc/Screen-Shot-2023-04-01-at-11-22-25-AM.png"
+            alt="homepage"
+          />
+          <p className="legend">Nike Checkout Page</p>
+        </div>
+        <div>
+          <img
+            src="https://i.postimg.cc/hP03WWpp/Screen-Shot-2023-04-01-at-11-22-06-AM.png"
             alt="homepage"
           />
           <p className="legend">Nike Checkout Page</p>
@@ -38,7 +45,7 @@ const CarouselPage = () => {
             Star War Spaceships
           </a>
           <img
-            src="https://i.postimg.cc/52vqDnh4/Screen-Shot-2023-03-31-at-1-43-43-PM.png"
+            src="https://i.postimg.cc/xjG8GcFq/Screen-Shot-2023-04-01-at-9-45-01-AM.png"
             alt="spaceship website"
           />
           <p className="legend">Space Ship Cards</p>

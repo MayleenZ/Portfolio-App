@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <nav className="nav">
       <Link to="/" className="name">
-        Mayleen
+        Mayleen <img src = "https://i.postimg.cc/GpnqgwxK/Screen-Shot-2023-04-01-at-2-24-03-PM.png" id = "nav-pic" alt="nav-pic"/>
       </Link>
       <div className="menu-icon" onClick={handleClick}>
         <i className={click ? "fas fa-times" : "fas fa-bars"} />

@@ -122,6 +122,8 @@
 #headshot {
   border-radius: 50%;
   padding: 20px;
+  width: 400px;
+  height: 300px;
 }
 
  #home {
@@ -318,14 +320,20 @@
   margin: 25px;
 }
 
-
+#nav-pic {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
 
 .Carousel {
   display: flex;
   justify-content: center;
-  margin: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
   padding: 10px;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 .link-site {

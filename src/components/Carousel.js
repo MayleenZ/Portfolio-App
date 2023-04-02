@@ -6,7 +6,8 @@ import { faGithub} from "@fortawesome/free-brands-svg-icons";
 
 const CarouselPage = () => {
   return (
-    <div className="Carousel">
+    // <div className="carousel-page">
+    <div className = "div-Carousel">
       <Carousel>
         <div>
           <a
@@ -22,7 +23,8 @@ const CarouselPage = () => {
             </a>
           <img
             src="https://i.postimg.cc/3xY5mFbb/Screen-Shot-2023-04-01-at-11-21-43-AM.png"
-            alt="sneaker website"
+            alt="sneaker website" 
+            className="img-carousel"
           />
           <p className="legend">Nike Home Page</p>
         </div>
@@ -30,6 +32,7 @@ const CarouselPage = () => {
           <img
             src="https://i.postimg.cc/FFB2CQCc/Screen-Shot-2023-04-01-at-11-22-25-AM.png"
             alt="homepage"
+            className="img-carousel"
           />
           <p className="legend">Nike Shoes Page</p>
         </div>
@@ -37,6 +40,7 @@ const CarouselPage = () => {
           <img
             src="https://i.postimg.cc/hP03WWpp/Screen-Shot-2023-04-01-at-11-22-06-AM.png"
             alt="homepage"
+            className="img-carousel"
           />
           <p className="legend">Nike Checkout Page</p>
         </div>
@@ -55,6 +59,7 @@ const CarouselPage = () => {
           <img
             src="https://i.postimg.cc/xjG8GcFq/Screen-Shot-2023-04-01-at-9-45-01-AM.png"
             alt="spaceship website"
+            className="img-carousel"
           />
           <p className="legend">Space Ship Cards</p>
         </div>
@@ -74,6 +79,7 @@ const CarouselPage = () => {
           <img
             src="https://i.postimg.cc/QCLrJcyn/Screen-Shot-2023-03-31-at-2-04-12-PM.png"
             alt="word-game website"
+            className="img-carousel"
           />
           <p className="legend">BuzzWord Home Page</p>
         </div>
@@ -99,6 +105,7 @@ const CarouselPage = () => {
           <img
             src="https://i.postimg.cc/zGY1gwgL/Screen-Shot-2023-03-31-at-3-14-46-PM.png"
             alt="cat facts website"
+            className="img-carousel"
           />
           <p className="legend">Cat Fact Page</p>
         </div>

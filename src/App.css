@@ -134,11 +134,11 @@
   background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-047-kq92wx9y.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b4691601fc97c7e239f0462f567837b6");
   background-size: auto;
   width: auto;
-  margin: 0px;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
-  margin: 45px;
+  margin: 45px 25px 0px;
+  margin-left: 25px;
 }  
 #home-content{
   background-color: #ffffffcc;
@@ -158,22 +158,37 @@
 #skill-badges{
   display: flex;
   padding: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
   transition: transform .2s;
-margin: 25px;
+  overflow: scroll;
 }
 
 #skill-badges :hover{
   transform: scale(1.5)
 }
 
-
+@media screen and (max-width: 960px) {
+  #side-story{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-root{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
 .side-story-div{
   background-color: rgba(190, 226, 255, 0.374);
   width: auto;
   margin: 10px;
   border-radius: 15px;
-
 }
 
 #side-story{
@@ -320,13 +335,19 @@ margin: 25px;
   margin-left: 10px;
 }
 
-.Carousel {
+
+.div-Carousel{
   display: flex;
   justify-content: center;
-  margin-left: 300px;
-  margin-right: 300px;
   padding: 10px;
-  margin-top: 15px;
+}
+
+
+.carousel-root{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: min-content;
 }
 
 .link-site {
@@ -340,7 +361,7 @@ margin: 25px;
 }
 
 #project-title{
-  margin-left:30px;
+  margin:30px;
   padding: 15px;
   background-color: #94AF9F;
   color: white;

@@ -1,9 +1,10 @@
 import ResumeButton from "./Button";
 
+
+
 function Programmer() {
   return (
     <div>
-
         <h1>Thinking like a Programmer</h1>
         <h4 className = "italic-heading">
           My introduction to programming began with the analogy of preparing a sandwich. </h4>
@@ -19,6 +20,7 @@ function Programmer() {
         </p>
         < br />
         <ResumeButton />
+        
       </div>
 
   );

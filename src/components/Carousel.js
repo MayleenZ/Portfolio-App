@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub} from "@fortawesome/free-brands-svg-icons";
 
 const CarouselPage = () => {
   return (
@@ -15,6 +17,9 @@ const CarouselPage = () => {
           >
             Nike Sneaker Site
           </a>
+          <a href="https://github.com/MayleenZ/NikeShoeApp" target="_blank" rel="noreferrer" className="project-icons">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
           <img
             src="https://i.postimg.cc/3xY5mFbb/Screen-Shot-2023-04-01-at-11-21-43-AM.png"
             alt="sneaker website"
@@ -44,6 +49,9 @@ const CarouselPage = () => {
           >
             Star War Spaceships
           </a>
+          <a href="https://github.com/MayleenZ/StarWars-ReactAPI" target="_blank" rel="noreferrer" className="project-icons">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
           <img
             src="https://i.postimg.cc/xjG8GcFq/Screen-Shot-2023-04-01-at-9-45-01-AM.png"
             alt="spaceship website"
@@ -60,6 +68,9 @@ const CarouselPage = () => {
           >
             BuzzWord
           </a>
+          <a href="https://github.com/MayleenZ/BuzzWord-Game" target="_blank" rel="noreferrer" className="project-icons">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
           <img
             src="https://i.postimg.cc/QCLrJcyn/Screen-Shot-2023-03-31-at-2-04-12-PM.png"
             alt="word-game website"
@@ -82,6 +93,9 @@ const CarouselPage = () => {
           >
             Cat Facts & NYC Adoption
           </a>
+          <a href="https://github.com/MayleenZ/Cat-Fact-App" target="_blank" rel="noreferrer" className="project-icons">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
           <img
             src="https://i.postimg.cc/zGY1gwgL/Screen-Shot-2023-03-31-at-3-14-46-PM.png"
             alt="cat facts website"

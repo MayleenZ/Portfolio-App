@@ -1,3 +1,4 @@
+import Brands from "./Brands";
 function Background() {
   return (
     <div>
@@ -14,6 +15,7 @@ function Background() {
           I also love to learn and grow within organizations. Besides learning, my
           favorite hobbies include rock climbing, reading and cooking.
         </p>
+        <Brands />
       </div>
     </div>
   );

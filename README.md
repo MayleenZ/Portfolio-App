@@ -20,14 +20,14 @@ I wanted to create a clean and responsive web page that showcases my journey wit
 Connecting with others by presenting a web page of my achievements. 
 
 # Roadmap 
-- [ x ] Using Router Dom
-- [ x ] Utilizing Carousel
-- [ x ] Creating a responsive nav
-- [ x ]  CSS styling
-- [ x ] Custom logo
-- [ x ] Using EmailJS
-- [ x ] Font Awesome Library
-- [ x ] API usage
+- [x] Using Router Dom
+- [x] Utilizing Carousel
+- [x] Creating a responsive nav
+- [x]  CSS styling
+- [x] Custom logo
+- [x] Using EmailJS
+- [x] Font Awesome Library
+- [x] API usage
 
 # Improvements
 - [ ] Sticky Navigation
